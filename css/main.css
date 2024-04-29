@@ -389,8 +389,10 @@ footer p {
     border-radius: 5px;
     padding: 10px;
     margin: 0 10px;
-    width: 350px;
+    max-width: 100%; /* Set the maximum width to 100% */
+    width: auto; /* Remove the fixed width */
   }
+  
   
   .text-box h3 {
     text-align: center;
